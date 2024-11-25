@@ -1,66 +1,91 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #f1f1fc, #eaf0f5);
     color: #333;
-    margin: 20px;
-    
-  }
-  
-  h1 {
+    margin: 10px;
+    padding: 40px;
+}
+
+h1 {
     color: #0d3764;
     text-align: center;
-  }
-  
-  .form-group {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.form-group {
     margin-bottom: 15px;
-   
-  }
-  
-  label {
+    max-width: 600px;
+    margin: 20px auto;
+    margin-bottom: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f1f1fc; /* Light background color */
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     border: 1px solid #ccc; 
+    margin-bottom: 0px;
+
+}
+
+label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  
-  input, textarea {
+    font-size: 1.1em;
+}
+
+input, textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  button {
-    padding: 10px 20px;
+    font-size: 1em;
+}
+
+button {
+    padding: 12px 24px;
     background-color: #0d3764;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+    
+}
+
+button:hover {
     background-color: #0056b3;
-  }
-  
-  #generated-resume {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+ #generated-resume {
     margin-top: 20px;
     background-color: #eaf0f5;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-left: 6px solid #0d3764;
-  }
-  
-  #generated-resume h2 {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#generated-resume h2 {
     color: #0961c0;
     text-align: center;
-  }
-  
-  #generated-resume p {
-    margin: 50px 0;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#generated-resume p {
+    margin: 20px 0;
     font-weight: bold;
-  }
+    font-size: 1.1em;
+} 
+
+
