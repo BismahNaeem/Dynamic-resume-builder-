@@ -72,25 +72,35 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!isValid) return;
 
     const resumeContent = `
-      <div style="
-        background-color: #f0f8ff; 
-        padding: 20px; 
-        border-radius: 8px; 
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-        margin-top: 20px;
-      ">
-        <h2 style="color: #007BFF; text-align: center;">Generated Resume</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Father's Name:</strong> ${fatherName}</p>
-        <p><strong>Contact:</strong> ${contact}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Education:</strong> ${education}</p>
-        <p><strong>Address:</strong> ${address}</p>
-        <p><strong>Skills:</strong> ${skills}</p>
-        <p><strong>Work Experience:</strong> ${experience}</p>
-      </div>
-    `;
+     <div style="
+    //     background-color: black; 
+    //     padding: 20px; 
+    //     border-radius: 8px; 
+    //     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    //     margin-top: 20px;
+    //   ">
+    //     <h2 style="color: #007BFF; text-align: center;">Generated Resume</h2>
+    //     <p><strong>Name:</strong> ${name}</p>
+    //     <p><strong>Father's Name:</strong> ${fatherName}</p>
+    //     <p><strong>Contact:</strong> ${contact}</p>
+    //     <p><strong>Email:</strong> ${email}</p>
+    //     <p><strong>Education:</strong> ${education}</p>
+    //     <p><strong>Address:</strong> ${address}</p>
+    //     <p><strong>Skills:</strong> ${skills}</p>
+    //     <p><strong>Work Experience:</strong> ${experience}</p>
+    //   </div>
+    // `;
 
     generatedResume.innerHTML = resumeContent;
+
+    // Display the entered data in the input fields
+    nameInput.value = name;
+    fatherNameInput.value = fatherName;
+    contactInput.value = contact;
+    emailInput.value = email;
+    educationInput.value = education;
+    addressInput.value = address;
+    skillsInput.value = skills;
+    experienceInput.value = experience;
   });
 });
